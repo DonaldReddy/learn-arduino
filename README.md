@@ -21,9 +21,10 @@ engineer. Full plan: [docs/ROADMAP.md](docs/ROADMAP.md).
 | 01 | [Blink](projects/Blink/) | `digitalWrite`, timing, XOR toggle bug | ✅ done |
 | 02 | [Button](projects/Button/) | `INPUT_PULLUP`, debouncing, `millis()` | ✅ done |
 | 03 | [Potentiometer → PWM LED](projects/Potentiometer/) | `analogRead`, PWM, voltage dividers | ✅ done |
-| 04 | Piezo buzzer | tone generation | ⚪ next up |
-| 05 | DHT11 sensor | temperature/humidity, one-wire-ish protocol | ⚪ planned |
-| 06 | Servo motor | output-compare PWM | ⚪ planned |
+| 04 | [ButtonLED](projects/ButtonLED/) | combining digital input + output, debouncing | ✅ done |
+| 05 | Piezo buzzer | tone generation | ⚪ next up |
+| 06 | DHT11 sensor | temperature/humidity, one-wire-ish protocol | ⚪ planned |
+| 07 | Servo motor | output-compare PWM | ⚪ planned |
 
 Each project folder has its own `README.md` with wiring notes and what was
 learned — not just the code.
