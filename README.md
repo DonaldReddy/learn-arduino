@@ -1,0 +1,39 @@
+# Learn Arduino → IoT Engineer
+
+Personal learning log for the path from full-stack dev to IoT/embedded
+engineer. Full plan: [docs/ROADMAP.md](docs/ROADMAP.md).
+
+## Progress
+
+**Currently in:** Stage 1 - Beginner, Week 5 (PWM & Analog) — see
+[docs/ROADMAP.md](docs/ROADMAP.md) for the full 30-week breakdown.
+
+| Stage | Weeks | Status |
+|---|---|---|
+| 1 — Beginner (electronics + C + first peripherals) | 1-8 | 🟡 in progress |
+| 2 — Intermediate (register-level, interrupts, RTOS, I2C/SPI) | 9-18 | ⚪ not started |
+| 3 — Advanced (bootloaders, CAN/USB/BLE, embedded Linux, security) | 19-30 | ⚪ not started |
+
+## Projects
+
+| # | Project | Concepts | Status |
+|---|---|---|---|
+| 01 | [Blink](projects/01-blink/) | `digitalWrite`, timing, XOR toggle bug | ✅ done |
+| 02 | [Button](projects/02-button/) | `INPUT_PULLUP`, debouncing, `millis()` | ✅ done |
+| 03 | [Potentiometer → PWM LED](projects/03-potentiometer/) | `analogRead`, PWM, voltage dividers | ✅ done |
+| 04 | Piezo buzzer | tone generation | ⚪ next up |
+| 05 | DHT11 sensor | temperature/humidity, one-wire-ish protocol | ⚪ planned |
+| 06 | Servo motor | output-compare PWM | ⚪ planned |
+
+Each project folder has its own `README.md` with wiring notes and what was
+learned — not just the code.
+
+## Hardware on hand
+Arduino Uno R3, breadboard, MyDAQ, jumper wires, resistors (220Ω/1kΩ/10kΩ),
+assorted LEDs, pushbuttons, 10kΩ potentiometer, piezo buzzer, DHT11.
+
+## Repo structure
+```
+docs/ROADMAP.md      full 1-year roadmap + research notes
+projects/NN-name/     one folder per sketch, chronological, with its own README
+```
