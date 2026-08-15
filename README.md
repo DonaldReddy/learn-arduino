@@ -24,8 +24,9 @@ engineer. Full plan: [docs/ROADMAP.md](docs/ROADMAP.md).
 | 04 | [ButtonLED](projects/ButtonLED/) | combining digital input + output, debouncing | ✅ done |
 | 05 | [Buzzer](projects/Buzzer/) | `tone()`, frequency/pitch, note sequencing | ✅ done |
 | 06 | [ButtonBuzzer](projects/ButtonBuzzer/) | edge detection, stepping through an array on press | ✅ done |
-| 07 | DHT11 sensor | temperature/humidity, one-wire-ish protocol | ⚪ next up |
-| 08 | Servo motor | output-compare PWM | ⚪ planned |
+| 07 | [BuzzerHold](projects/BuzzerHold/) | `tone()` without duration, start/stop on press/release | ✅ done |
+| 08 | DHT11 sensor | temperature/humidity, one-wire-ish protocol | ⚪ next up |
+| 09 | Servo motor | output-compare PWM | ⚪ planned |
 
 Each project folder has its own `README.md` with wiring notes and what was
 learned — not just the code.

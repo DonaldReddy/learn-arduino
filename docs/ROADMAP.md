@@ -64,6 +64,7 @@ drivers, relays, ESP32/Bluetooth/WiFi modules (needed starting Month 2+),
 - [x] ButtonLED — combined digital input + output, button press lights an external LED (`projects/ButtonLED`)
 - [x] Piezo buzzer — tones / simple melody, `tone()`/`noTone()` (`projects/Buzzer`)
 - [x] ButtonBuzzer — edge detection, step through melody array one note per press (`projects/ButtonBuzzer`)
+- [x] BuzzerHold — buzz continuously while button held, stop on release, `tone()` without duration (`projects/BuzzerHold`)
 - [ ] DHT11 — read temperature/humidity
 - [ ] Servo motor control
 - [ ] I2C / SPI / UART concepts

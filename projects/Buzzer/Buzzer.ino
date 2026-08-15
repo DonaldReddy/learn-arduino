@@ -37,7 +37,7 @@ int noteDurations[] = {
   400, 400, 400, 400, 400, 400, 800
 };
 
-const int numNotes = 0;
+const int numNotes = 14;
 
 void setup() {
   pinMode(buzzerPin, OUTPUT);
