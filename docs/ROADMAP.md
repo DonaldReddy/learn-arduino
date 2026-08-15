@@ -57,10 +57,10 @@ drivers, relays, ESP32/Bluetooth/WiFi modules (needed starting Month 2+),
 
 ## Progress log (Month 1-2: Embedded Foundations)
 - [x] Arduino IDE installed and working
-- [x] Blink — onboard LED + external LED alternating (`projects/01-blink`)
-- [x] Pushbutton with debounce, `INPUT_PULLUP`, `millis()`-based timing (`projects/02-button`)
-- [x] Analog input — potentiometer via `analogRead`, printed to Serial (`projects/03-potentiometer`)
-- [x] PWM output — fade an LED with `analogWrite` (`projects/03-potentiometer`, pot controls brightness)
+- [x] Blink — onboard LED + external LED alternating (`projects/Blink`)
+- [x] Pushbutton with debounce, `INPUT_PULLUP`, `millis()`-based timing (`projects/Button`)
+- [x] Analog input — potentiometer via `analogRead`, printed to Serial (`projects/Potentiometer`)
+- [x] PWM output — fade an LED with `analogWrite` (`projects/Potentiometer`, pot controls brightness)
 - [ ] Piezo buzzer — tones / simple melody
 - [ ] DHT11 — read temperature/humidity
 - [ ] Servo motor control

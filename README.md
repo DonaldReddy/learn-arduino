@@ -18,9 +18,9 @@ engineer. Full plan: [docs/ROADMAP.md](docs/ROADMAP.md).
 
 | # | Project | Concepts | Status |
 |---|---|---|---|
-| 01 | [Blink](projects/01-blink/) | `digitalWrite`, timing, XOR toggle bug | ✅ done |
-| 02 | [Button](projects/02-button/) | `INPUT_PULLUP`, debouncing, `millis()` | ✅ done |
-| 03 | [Potentiometer → PWM LED](projects/03-potentiometer/) | `analogRead`, PWM, voltage dividers | ✅ done |
+| 01 | [Blink](projects/Blink/) | `digitalWrite`, timing, XOR toggle bug | ✅ done |
+| 02 | [Button](projects/Button/) | `INPUT_PULLUP`, debouncing, `millis()` | ✅ done |
+| 03 | [Potentiometer → PWM LED](projects/Potentiometer/) | `analogRead`, PWM, voltage dividers | ✅ done |
 | 04 | Piezo buzzer | tone generation | ⚪ next up |
 | 05 | DHT11 sensor | temperature/humidity, one-wire-ish protocol | ⚪ planned |
 | 06 | Servo motor | output-compare PWM | ⚪ planned |
@@ -34,6 +34,11 @@ assorted LEDs, pushbuttons, 10kΩ potentiometer, piezo buzzer, DHT11.
 
 ## Repo structure
 ```
-docs/ROADMAP.md      full 1-year roadmap + research notes
-projects/NN-name/     one folder per sketch, chronological, with its own README
+docs/ROADMAP.md    full 1-year roadmap + research notes
+projects/Name/      one folder per sketch, each with its own README
 ```
+
+Folder names match the `.ino` filename exactly (e.g. `projects/Blink/Blink.ino`) —
+required by the Arduino IDE, which won't open a sketch unless its folder is
+named after it. Chronological order is tracked in the table above, not in
+the folder name.
