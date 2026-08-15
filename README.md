@@ -22,8 +22,8 @@ engineer. Full plan: [docs/ROADMAP.md](docs/ROADMAP.md).
 | 02 | [Button](projects/Button/) | `INPUT_PULLUP`, debouncing, `millis()` | ✅ done |
 | 03 | [Potentiometer → PWM LED](projects/Potentiometer/) | `analogRead`, PWM, voltage dividers | ✅ done |
 | 04 | [ButtonLED](projects/ButtonLED/) | combining digital input + output, debouncing | ✅ done |
-| 05 | Piezo buzzer | tone generation | ⚪ next up |
-| 06 | DHT11 sensor | temperature/humidity, one-wire-ish protocol | ⚪ planned |
+| 05 | [Buzzer](projects/Buzzer/) | `tone()`, frequency/pitch, note sequencing | ✅ done |
+| 06 | DHT11 sensor | temperature/humidity, one-wire-ish protocol | ⚪ next up |
 | 07 | Servo motor | output-compare PWM | ⚪ planned |
 
 Each project folder has its own `README.md` with wiring notes and what was

@@ -62,7 +62,7 @@ drivers, relays, ESP32/Bluetooth/WiFi modules (needed starting Month 2+),
 - [x] Analog input — potentiometer via `analogRead`, printed to Serial (`projects/Potentiometer`)
 - [x] PWM output — fade an LED with `analogWrite` (`projects/Potentiometer`, pot controls brightness)
 - [x] ButtonLED — combined digital input + output, button press lights an external LED (`projects/ButtonLED`)
-- [ ] Piezo buzzer — tones / simple melody
+- [x] Piezo buzzer — tones / simple melody, `tone()`/`noTone()` (`projects/Buzzer`)
 - [ ] DHT11 — read temperature/humidity
 - [ ] Servo motor control
 - [ ] I2C / SPI / UART concepts

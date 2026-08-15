@@ -17,7 +17,7 @@
 */
 
 const int buttonPin = 2;
-const int ledPin = LED_BUILTIN;
+const int ledPin = 8;
 
 int lastStableState = HIGH;   // HIGH = not pressed (pull-up idle state)
 int lastReading = HIGH;
